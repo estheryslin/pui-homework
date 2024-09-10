@@ -1,44 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
   <title>Page Title</title>
 
   <!-- Logo -->
+  <a href = "product-gallery.html">
+    <img src="../assets/logo/logo-01.svg"
+    width="400px"
+    alt="Bun Bun bake shop logo"/>
+    <hr>
+  </a>
 
-      <img src="./assets/logo/logo-01.svg"
-      width="400"
-      alt="Bun Bun bake shop logo"/>
-  
+  <!-- Nav Bar -->
   <body>
+    <nav class="nav_bar">
+      <a href = "product-gallery.html" class = "active">Products</a>
+      <br><br>
+      <a href = "shopping-cart.html" >Cart</a>
+    </nav>
 
-    <h1>Products</h1>
-    <p>Cart</p>
+    <div class = "center_text">
+      <br><br>
+      <p>Shopping Cart</p>
+    </div>
 
-    <h1>Shopping Cart</h1>
+    <div class = "bun_detail">
 
     <!-- Original cinnamon roll -->
-
-      <img src="./assets/products/original-cinnamon-roll.jpg"
-      width="400"
+    <div class = "bun_item_cart">
+      <img src="../assets/products/original-cinnamon-roll.jpg"
+      width="200"
       alt="Original Cinnamon Roll"/>
+    </div>
     
-      <p>Original Cinnamon Roll Glazing: Keep Original</p>
-      <p>Pack Size: 1</p>
-      <p>$2.49</p>
+      <div class = "center_img">
+        <div class = "remove_text"
+          <p>Remove</p>
+        </div>
+          <p>Original Cinnamon Roll Glazing: Keep Original</p>
+          <p>Pack Size: 1</p>
+          <p>$2.49</p>
+      </div>
 
     <!-- Double chocolate cinnamon roll -->
-
-      <img src="./assets/products/double-chocolate-cinnamon-roll.jpg"
-      width="400"
+    <div class = "bun_item_cart">
+      <img src="../assets/products/double-chocolate-cinnamon-roll.jpg"
+      width="200"
       alt="Original Cinnamon Roll"/>
+    </div>
 
-      <p>Double Chocolate Cinnamon Roll Glazing: Sugar Milk</p>
-      <p>Pack Size: 6</p>
-      <p>$27.45</p>
-
-    <p>$29.94</p>
-   
-    </p>
-
+      <div class = "center_img">
+        <div class = "remove_text"
+          <p>Remove</p>
+        </div>
+          <p>Double Chocolate Cinnamon Roll Glazing: Sugar Milk</p>
+          <p>Pack Size: 6</p>
+          <p>$27.45</p>
+      </div>
+      <hr>
+    
+        <!-- Checkout -->
+        <p class = "center_img">Total: $29.94</p>
+        <div class = "checkout_button">
+            <button class = "checkout_button">Checkout</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

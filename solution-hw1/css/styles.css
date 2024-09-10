@@ -1,0 +1,116 @@
+/*Styling Used On All Pages*/
+.center_text{
+    text-align: center;
+}
+
+.center_img{
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    margin-top:16px;
+}
+
+hr{
+    height:3px;
+    color:black;
+    background-color:black;
+}
+
+.active{
+    background-color:yellow;
+    font-weight:bold;
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+}
+
+.nav_bar{
+    text-align: center;
+}
+
+/*Product Gallery Page*/
+.bun_item{
+    width:400px;
+    padding:16px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:16px;
+}
+
+.bun_item:hover{
+    background-color:yellow;
+    font-weight:bold;
+}
+
+.bun_item img{
+    outline:auto;
+    color:black;
+}
+
+.item_name{
+    text-decoration:underline;
+    color:black;
+}
+
+/*Product Detail Page*/
+.drop_down{
+    outline:auto;
+    height:32px;
+    width:200px;
+}
+
+.add_to_cart_section{
+    display:flex;
+    justify-content: space-around;
+}
+
+.add_to_cart_button{
+    background-color:yellow;
+    outline:auto;
+    height:32px;
+    width:100px;
+}
+
+.bun_detail{
+    width:200px;
+    padding:16px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:16px;
+}
+
+.bun_detail_img{
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    outline:auto;
+    color:black;
+}
+
+/*Shopping Cart Page*/
+
+.checkout_button{
+    background-color:yellow;
+    outline:auto;
+    margin-left:auto;
+    margin-right:auto;
+    height:32px;
+    width:100px;
+}
+
+.bun_item_cart{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.bun_item_cart img{
+    outline:auto;
+    color:black;
+}
+
+.remove_text{
+    font-size: small;
+}

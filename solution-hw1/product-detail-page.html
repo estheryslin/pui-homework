@@ -1,30 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
   <title>Page Title</title>
 
-    <!-- Original Cinnamon Roll -->
-
-      <img src="./assets/logo/logo-01.svg"
-      width="400"
-      alt="Bun Bun bake shop logo"/>
+  <!-- Logo -->
+  <a href = "product-gallery.html">
+    <img src="../assets/logo/logo-01.svg"
+    width="400px"
+    alt="Bun Bun bake shop logo"/>
+    <hr>
+  </a>
   
+  <!-- Nav Bar -->
   <body>
+    <nav class="nav_bar">
+      <a href = "product-gallery.html" class = "active">Products</a>
+      <br><br>
+      <a href = "shopping-cart.html" >Cart</a>
+    </nav>
+  
+  <!-- Bun Details -->
+  <p class = "center_text">Original cinnamon roll</p>
+    <div class = "bun_detail_img">
+      <img src="../assets/products/original-cinnamon-roll.jpg"
+        width="600px"
+        alt="Original Cinnamon Roll"/>
+    </div>
 
-    <h1>Products</h1>
-    <p>Cart</p>
-    <p>Original Cinnamon roll</p>
+    <div class = "bun_detail">
+      <p>Customize our delicious, hand-made cinnamon roll to your liking!</p>
+      
+    <!-- Dropdowns -->
+      <p>Glazing:</p>
+        <select class = "drop_down">
+          <option>Keep original</option>
+          <option>Sugar milk</option>
+          <option>Vanilla milk</option>
+          <option>Double chocolate</option>
+        </select>
 
-      <img src="./assets/original-cinnamon-roll.jpg"
-      width="400"
-      alt="Original Cinnamon Roll"/>
+      <p>Pack size:</p>
+        <select class = "drop_down">
+          <option>1</option>
+          <option>3</option>
+          <option>6</option>
+          <option>12</option>
+        </select>
+      <br><br>
 
-      <p>Customize our delicious, handmade cinnamon roll to your liking!</p>
-    
-      <p>Glazing</p>
-
-   
-    </p>
-
+    <!-- Add to Cart -->
+      <div class = "add_to_cart_section">
+        <p>$2.49</p>
+          <button class = "add_to_cart_button">Add to Cart</button>
+      </div>
+    </div>
   </body>
 </html>
+
