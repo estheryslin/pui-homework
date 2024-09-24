@@ -48,5 +48,5 @@ function total_price() {
     let glaze_price = parseFloat(document.querySelector('#glazing').value);
     let pack_price = parseFloat(document.querySelector('#packsize').value);
     final_price = ((glaze_price + original_price) * pack_price);
-    document.querySelector('.product-price').textContent = "$"+final_price.toFixed(2);
+    document.querySelector('.product_price').textContent = "$"+final_price.toFixed(2);
 }
