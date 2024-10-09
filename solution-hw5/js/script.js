@@ -1,4 +1,3 @@
-
 const queryString = window.location.search;
 const params = new URLSearchParams(queryString);
 const rollType = params.get('roll');
@@ -219,26 +218,28 @@ function display_cart_items() {
         imgDiv.classList.add('bun_item_cart');
         const img = document.createElement("img");
         img.src = `../assets/products/${bun.type.toLowerCase()}-cinnamon-roll.jpg`;
-        img.width = 100;
+        img.width = 125;
         img.alt = `${bun.type} Cinnamon Roll`;
         imgDiv.appendChild(img);
         cart_itemDiv.appendChild(imgDiv);
         
+        const infoDiv = document.createElement("div");
+        infoDiv.classList.add('cart_item_info');
+
         const textDiv = document.createElement("div");
         textDiv.classList.add('cart_text');
         textDiv.innerHTML = `
             <p>${bun.type} Cinnamon Roll</p>
             <p>Glazing: ${bun.glazing}</p>
             <p>Pack Size: ${bun.size}</p>
-
         `;
-        cart_itemDiv.appendChild(textDiv);
+        infoDiv.appendChild(textDiv);
 
         const priceDiv = document.createElement("div");
         priceDiv.classList.add('cart_price');
         const item_price = ((bun.basePrice) * bun.size).toFixed(2);
         priceDiv.innerHTML = `<p>$${item_price}</p>`;
-        cart_itemDiv.appendChild(priceDiv);
+        infoDiv.appendChild(priceDiv);
 
         const removeDiv = document.createElement("div");
         removeDiv.classList.add('remove_text');
@@ -246,8 +247,9 @@ function display_cart_items() {
         removeDiv.addEventListener("click", function() {
             remove_cart_item(bun, cart_itemDiv);
         });
-        cart_itemDiv.appendChild(removeDiv);
+        infoDiv.appendChild(removeDiv);
 
+        cart_itemDiv.appendChild(infoDiv);
         cart_container.appendChild(cart_itemDiv);
 
         cart_bun_price.push(parseFloat(item_price));
