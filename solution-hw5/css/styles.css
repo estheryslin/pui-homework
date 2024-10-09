@@ -148,7 +148,9 @@ td{
 .checkout_button{
     background-color:yellow;
     outline: auto;
-    margin-left: 1100px;
+    display: block; 
+    margin-left: auto;
+    margin-right: 150px; 
     height:32px;
     width:100px;
 }
@@ -204,7 +206,8 @@ td{
     width: 50%;
     color:black;
     background-color:black;
-    margin-left: 450px;
+    margin-left: auto; 
+    margin-right: 150px; 
     margin-top: 10px;
 }
 
@@ -215,8 +218,10 @@ td{
 
 .total_flex_container {
     display: flex;
-    margin: 0;
-  }
+    justify-content: flex-end; 
+    margin-right: 150px; 
+    gap: 20px; 
+}
 
 .cart_container {
     width: 100%;
