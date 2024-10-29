@@ -202,30 +202,49 @@ How would you use Generative AI responsibly?
 
 ## Idea Sketches
 
-### *Idea 1*
+### *Idea 1: Personal Website*
 
-![title for sketch1](images/sketch1.png)
+![Personal Website](images/sketch1.png)
 
-Add a few sentences about your design. Briefly state the motivation of each project idea. Example questions to answer:
+<img width="873" alt="Screen Shot 2024-10-28 at 11 28 06 PM" src="https://github.com/user-attachments/assets/7b2ae2d3-2876-40de-b733-0f783979db03">
 
-* What is the basic idea of your final project? (1-2 sentences)  
-* How do you plan to make your design interactive and engaging?  
-* How do you plan to make your design accessible?  
-* What information do you specifically want to convey and include on your website?
+A personal portfolio website to display and talk about my different projects. Other features include having an “About me” page and creative home landing page. Want to create engagement through potentially having a night mode and other visual features. Nigh mode will also help with accesibility and alt text will be added. 
 
-### *Idea 2*
+### *Idea 2: Restaurant Rating*
 
-…
+![Restaurant Rating](images/sketch1.png)
 
-### *Idea 3*
+<img width="872" alt="Screen Shot 2024-10-28 at 11 29 04 PM" src="https://github.com/user-attachments/assets/ec7d1205-dd10-474b-a48d-02c9990c4cba">
 
-…
+Website to submit ratings and comments of different restaurants for your friends to see and share. Acts as a social media platform for foodies. The different features and interactive component will make the design interactive, and ease of use will be a primary focus. Alt text and color options will be available for accesibility.
+
+### *Idea 3: Digital Journal*
+
+![Digital Journal](images/sketch1.png)
+
+<img width="873" alt="Screen Shot 2024-10-28 at 11 29 22 PM" src="https://github.com/user-attachments/assets/cd778289-f1c2-4d84-8d2e-d67e8e9e0e60">
+
+A digital journal to submit entries to document your daily thoughts. Emphasis on aesthetics and features to visually see spreads instead of using word, docs, or notes app. Features such as comments and stickets will make the design interactive, in addition to a potential social feature. Design will be accesible by providing different viewing styles, font sizes, and alt text.
 
 ## Feedback Summary
 
-Summarize all the critiques you received during the lab session (\~300 words). 
+**Feedback Summary:**
+
+Personal Portfolio: Focus on enhancing user experience by making both digital and physical elements visible and comprehensible. Suggestions included creating a personalized landing page with a clean, organized design that avoids overwhelming users. Another idea was to incorporate a left-side navigation bar to improve usability, keeping critical sections accessible at all times.
+
+Restaurant Rating: Feedback included combining elements from Reddit, Yelp, and OpenTable to create a unique and interactive experience. The addition of a map feature could be helpful in allowing users to locate restaurants based on location, distance, and ratings. Organizational suggestions included sorting by location, newness, or popularity to keep content relevant. There was also interest in an upvote/downvote system similar to platforms like Reddit and Beli to give users a way to promote helpful reviews and encourage social engagement.
+
+Digital Journal: Emphasis on creating an interface that feels like a blend of Notion and Tumblr with multiple page layouts for personalized journaling. There is potential for a ‘rate your day’ feature, which would allow users to track daily reflections. Another idea was adding digital stickers for personalization, which could appeal to more creative users. To increase functionality, there were suggestions to implement a trend-tracking feature to analyze recurring patterns in dates and words across entries, to provide insight to your habits and extrapolate data for reflection. 
+
+There was also overall feedback to consider mobile payouts for all ideas so it is user friendly, especially for the digital journal.
 
 ## Feedback Digestion
 
-Digest the feedback you got in the lab (\~300 words). Indicate which critique you will act on in your next design and why you chose to incorporate/dismiss pieces of critique.
+The two most important points of feedback that I’d like to incorporate is the sticker feature and the emphasis on mobile applications.
+
+Stickers as a feature for the digital journal could, as suggested, offer users a fun, customizable element, creating a more interactive journaling experience. This would add appeal over using other document applications and make the experience more personable, like if you were to use a paper journal. It would make the design more engaging and add a sense of personalization, which could appeal to many different users. This could also lead to more functional features as well such as bookmarks or highlights, that could be designed like the stickers but have more than just decorative value.
+
+Another significant point was ensuring that any of the applications can be viewed on a mobile device. Many peers noted that mobile access is critical for both the restaurant rating platform and the journal, as they’re more likely to interact with these features on the go. This means that the mobile application navigation needs to be intuitive, ensuring features like the left-side sticky navigation bar adapt well to smaller screens, and avoiding overwhelming users with too many options at once. This is important to create a seamless and practical user experience, even if they are using a phone.
+
+A piece of critique that I will not be incorporating is the location based feature for the restaurant rating app as it may be too complicated for me to implement within the project timeline and scope. Due to network effects, I will also not implement popularity features as I currently do not know how many people can/will use the platform and do not know if the lack of users will impact the experience if features are dependent on having many users.
 
