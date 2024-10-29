@@ -204,23 +204,17 @@ How would you use Generative AI responsibly?
 
 ### *Idea 1: Personal Website*
 
-![Personal Website](images/sketch1.png)
-
 <img width="873" alt="Screen Shot 2024-10-28 at 11 28 06 PM" src="https://github.com/user-attachments/assets/7b2ae2d3-2876-40de-b733-0f783979db03">
 
 A personal portfolio website to display and talk about my different projects. Other features include having an “About me” page and creative home landing page. Want to create engagement through potentially having a night mode and other visual features. Nigh mode will also help with accesibility and alt text will be added. 
 
 ### *Idea 2: Restaurant Rating*
 
-![Restaurant Rating](images/sketch1.png)
-
 <img width="872" alt="Screen Shot 2024-10-28 at 11 29 04 PM" src="https://github.com/user-attachments/assets/ec7d1205-dd10-474b-a48d-02c9990c4cba">
 
 Website to submit ratings and comments of different restaurants for your friends to see and share. Acts as a social media platform for foodies. The different features and interactive component will make the design interactive, and ease of use will be a primary focus. Alt text and color options will be available for accesibility.
 
 ### *Idea 3: Digital Journal*
-
-![Digital Journal](images/sketch1.png)
 
 <img width="873" alt="Screen Shot 2024-10-28 at 11 29 22 PM" src="https://github.com/user-attachments/assets/cd778289-f1c2-4d84-8d2e-d67e8e9e0e60">
 
