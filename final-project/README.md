@@ -125,17 +125,24 @@ Remember to keep track of your prompts and usage for [FP4 writeup](#part-6-gener
 
 ## Project Description
 
-Briefly restate your motivation and a short description of your project.
+A personal portfolio website to display and talk about my different projects. Other features include having an “About me” page and creative home landing page. Want to create engagement through potentially having a night mode and other visual animatied features. Night mode will also help with accesibility and alt text will be added. 
 
 ## High-Fi Prototypes
 
 ### *Prototype 1*
 
 ![title for prototype1](images/prototype1.png)
+<img width="806" alt="Screen Shot 2024-11-04 at 9 56 52 PM" src="https://github.com/user-attachments/assets/8b2d860c-a265-44f7-abc0-1593b6be488a">
 
 A brief description and summary of the user feedback (\<100 words, 2 images) 
 
 ### *Prototype 2*
+
+<img width="821" alt="Screen Shot 2024-11-04 at 10 00 55 PM" src="https://github.com/user-attachments/assets/4d5f36a1-335d-4392-bf2f-40d2c510f837">
+
+### *Prototype 3*
+
+<img width="822" alt="Screen Shot 2024-11-04 at 10 02 33 PM" src="https://github.com/user-attachments/assets/85ea3508-7353-425d-bb04-21f7a9222e9f">
 
 …
 
