@@ -131,17 +131,19 @@ A personal portfolio website to display and talk about my different projects. Ot
 
 ### *Prototype 1*
 
-![title for prototype1](images/prototype1.png)
+<img width="793" alt="Screen Shot 2024-11-04 at 10 08 09 PM" src="https://github.com/user-attachments/assets/202f753a-d7d3-48b1-9ac9-82f0307c8b25">
 <img width="806" alt="Screen Shot 2024-11-04 at 9 56 52 PM" src="https://github.com/user-attachments/assets/8b2d860c-a265-44f7-abc0-1593b6be488a">
 
 A brief description and summary of the user feedback (\<100 words, 2 images) 
 
 ### *Prototype 2*
 
+<img width="793" alt="Screen Shot 2024-11-04 at 10 08 31 PM" src="https://github.com/user-attachments/assets/cbde6fbf-d6a9-4a4d-a516-1f47fcfc55dc">
 <img width="821" alt="Screen Shot 2024-11-04 at 10 00 55 PM" src="https://github.com/user-attachments/assets/4d5f36a1-335d-4392-bf2f-40d2c510f837">
 
 ### *Prototype 3*
 
+<img width="793" alt="Screen Shot 2024-11-04 at 10 08 56 PM" src="https://github.com/user-attachments/assets/81983f4c-f1cf-4f43-b012-61c824c871b7">
 <img width="822" alt="Screen Shot 2024-11-04 at 10 02 33 PM" src="https://github.com/user-attachments/assets/85ea3508-7353-425d-bb04-21f7a9222e9f">
 
 …
