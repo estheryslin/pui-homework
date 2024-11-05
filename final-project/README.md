@@ -131,37 +131,50 @@ A personal portfolio website to display and talk about my different projects. Ot
 
 ### *Prototype 0 (Home Page)*
 
-<img width="400" alt="Screen Shot 2024-11-04 at 10 08 09 PM" src="https://github.com/user-attachments/assets/202f753a-d7d3-48b1-9ac9-82f0307c8b25">
+<img width="800" alt="Screen Shot 2024-11-04 at 10 08 09 PM" src="https://github.com/user-attachments/assets/202f753a-d7d3-48b1-9ac9-82f0307c8b25">
+The homepage lacks a visual hierarchy with the main text, which makes it hard for users to identify where to navigate to from the home page. The changing language feature of the homepage text affects the overall layout, and how it could potentially get busy with so many different components. 
 
-A brief description and summary of the user feedback (\<100 words, 2 images) 
+### *Prototype 1 (Works Page)*
 
-### *Prototype 1*
+<img width="800" alt="Screen Shot 2024-11-04 at 10 00 55 PM" src="https://github.com/user-attachments/assets/4d5f36a1-335d-4392-bf2f-40d2c510f837">
+Users may struggle to find their way back to the homepage due to there not being a clear homepage button. Work page displays all of the portfolio projects but users don’t know anything about the projects and can’t tell what the projects are about by the title. Some uncertainty that you’re supposed to scroll down on this page.
 
-<img width="400" alt="Screen Shot 2024-11-04 at 10 00 55 PM" src="https://github.com/user-attachments/assets/4d5f36a1-335d-4392-bf2f-40d2c510f837">
+### *Prototype 2 (Project Page)*
 
-### *Prototype 2*
-
-<img width="400" alt="Screen Shot 2024-11-04 at 10 02 33 PM" src="https://github.com/user-attachments/assets/85ea3508-7353-425d-bb04-21f7a9222e9f">
+<img width="800" alt="Screen Shot 2024-11-04 at 10 02 33 PM" src="https://github.com/user-attachments/assets/85ea3508-7353-425d-bb04-21f7a9222e9f">
+The photo and text layout feels a bit jarring, especially when viewed in full screen on desktop. Seeing the image first doesn’t allow for affordances that the user is supposed to scroll down. Users are also unable to see the image and the respective text at the same time. Users also said that if there is a lot of content then there could be a lot of scrolling necessary to get through the whole page.
 
 …
 
 ## Usability Test
 
-Discuss the user feedback you got during the evaluation / usability test (\~300 words). Indicate which feedback you implemented, inspired new directions, or otherwise influenced your final design. 
+In the usability test, there was a lot of feedback on the overall intuitiveness of the landing page, mostly with regards to where to navigate to next after reading the text on the homepage. The homepage has been refined by removing the CMU-specific portion of the text in the middle of the homescreen and introducing a home button in the top left of the navigation bar. This will need to be tested for how intuitive it is that that is a home button. In the test, users were also confused about project titles such as “WeAudit TAIGA”, so on the works page, short descriptions have been added to each project to give users a quick summary of the content, improving intuitiveness. Finally, on the project page, there were comments about the layout being not the most usable due to the wide positioning of the images as well as the images being the first thing you see. The layout has been changed so images and text are side by side and the users can see both simultaneously. 
 
 ## Updated Designs
 
-<img width="400" alt="Screen Shot 2024-11-04 at 9 56 52 PM" src="https://github.com/user-attachments/assets/8b2d860c-a265-44f7-abc0-1593b6be488a">
-<img width="400" alt="Screen Shot 2024-11-04 at 10 08 31 PM" src="https://github.com/user-attachments/assets/cbde6fbf-d6a9-4a4d-a516-1f47fcfc55dc">
-<img width="400" alt="Screen Shot 2024-11-04 at 10 08 56 PM" src="https://github.com/user-attachments/assets/81983f4c-f1cf-4f43-b012-61c824c871b7">
+<img width="800" alt="Screen Shot 2024-11-04 at 9 56 52 PM" src="https://github.com/user-attachments/assets/8b2d860c-a265-44f7-abc0-1593b6be488a">
+Took out “Carnegie Mellon Student” portion out of the main text, and included it in the top left as a part of the new home button. This home button was added as a way to go back to the landing page after going to other pages. 
+
+<img width="800" alt="Screen Shot 2024-11-04 at 10 08 31 PM" src="https://github.com/user-attachments/assets/cbde6fbf-d6a9-4a4d-a516-1f47fcfc55dc">
+Added short descriptions to each project to inform users of what the respective projects are about before they click on it. Will add an animated image hover feature to give feedback when users are hovering over specific projects.
+
+<img width="800" alt="Screen Shot 2024-11-04 at 10 08 56 PM" src="https://github.com/user-attachments/assets/81983f4c-f1cf-4f43-b012-61c824c871b7">
+Changed layout so image and text are next to each other and are visible simultaneously. Allows users to better digest and analyze the content.
 
 ## Feedback Summary
 
-Summarize the feedback you received in the lab session and discuss how it influenced your design (\~300 words). 
+Primary feedback during the lab was that additional complexity needed to be added to the project to keep users engaged and to meet project requirements. After discussion, this could come in a few different forms to tie together the portfolio website. The first way is to add animation to the floating stars on the homepage, so that when the mouse hovers over the shapes they float around. Another idea was to add a dynamic timeline to each portfolio page so that there are different steps to the project that the users can jump to, and by clicking on the steps it will take them to the respective portion of the project writing. The last idea was to add animated images and feedback to various clickable objects throughout the website. This includes the homepage main text, the images on the works page, and the images on the project page. Overall, these ideas influenced my design in that it opened up a lot of possibilities to the project that I didn’t initially consider. I mostly focused on the layout of the website and the content, but after the session I shifted my focus more so to adding more dynamic components to the website to make it more interactive and engaging for the users.
 
 ## Milestones
 
-Outline weekly milestones to plan your expected implementation progress until the end of the semester (\~300 words). 
+Week 11: Design and implement basic structure of the website using HTML. Hardcode any objects and visual components that I currently know how to create and get a rough outline of what the website should look like. Attempt the animated stars on the homepage and gauge progress and time.
+
+Week 12: Refine the visual components created from the previous week. Have the animated starts completed on the home page. Begin to attempt the animated images for the works and project page. 
+
+Week 13: Create the timeline at the top of the project page. Created animated homepage text. Make final corrections on the hardcoded text and visual components.
+
+Weel 14: Final adjustments. Refine and debug any dynamic components to the website to enssure they are efficient and not prone to breaking.
+
 
 ### *Implementation Plan*
 
@@ -172,37 +185,49 @@ Outline weekly milestones to plan your expected implementation progress until th
 - [ ] Week 10 Nov 4 \- Nov 8:   
   - [ ] FP2 due
 
-- [ ] Week 11 Nov 11 \- Nov 15:  
-- [ ] Week 12 Nov 18 \- Nov 22:   
-- [ ] Week 13 Nov 25 \- Nov 29:  
+- [ ] Week 11 Nov 11 \- Nov 15:
+  - [ ] FP3 Due
+  - [ ] Design and implement basic structure of whole website
+  - [ ] Hardcode visual elements such as images and buttons
+  - [ ] Attempt animated stars and gaug progress/time
+        
+- [ ] Week 12 Nov 18 \- Nov 22:
+  - [ ] Refine basic structure and visual elements
+  - [ ] Compelte animated stars
+  - [ ] Attempt animated images for project page
+        
+- [ ] Week 13 Nov 25 \- Nov 29:
+  - [ ] Attempt timeline at the top of project page
+  - [ ] Make final corrections on structure and hardcoded components
+  - [ ] Created animated homepage text
 
   - [ ] Thanksgiving  
 - [ ] Week 14 Dec 2 \- Dec 6:  
-  - [ ] FP4 due 
+  - [ ] FP4 due
+  - [ ] Finalize project page timeline
+  - [ ] Final adjustments
+  - [ ] Debug features, especially dynamic ones
+  - [ ] Check for speed of dynamic components
 
 ### *Libraries and Other Components*
 
-List the JS libraries and other components (if applicable) that you plan to use. 
-* 
-
+N/A (for now)
 
 ## Generative AI Use Plan
 
-Outline how you plan to use Generative AI tools to aid in the implementation (\~300 words).
+For animated elements like the stars, changing text, and hover effects, ChatGPT can help in generating JavaScript, CSS, and HTML snippets. ChatGPT can help in building complex animations, like CSS animations for stars and JavaScript to cycle through dynamic text. 
 
 ### *Tool Use*
 
- What would you use? Edit the list given your plan. For each tool, explain briefly on what do you expect Generative AI to help you with and what might it not be able to help you with.
+Generative AI can be helpful in developing interactive features and making components more efficient on complex code. I think AI can make the coding process for animations and transitions more efficient since it can help me identify ways to improve code efficiently. AI might struggle with highly specific design layouts or animation effects that need fine-tuning since the code might need adjustments. Additionally, AI-generated suggestions might not be exactly what I am looking for and may take multiple attempts to understand what I am asking. 
 
 * ChatGPT  
-  * I will use it for … because it can help me …  
-  * I will not use it for … because it might not be able to help me with …   
-* GitHub Copilot  
-* ...
+  * I will use it for generating code snippets because it can scan other public resources that I can't
+  * I will use it to ask questions about my logic and existing code
 
 ### *Responsible Use*
 
-How would you use Generative AI responsibly? 
+I’ll use GenAI responsibly by reviewing all generated code, ensuring it meets best practices. Additionally, I’ll avoid over-relying on AI and continue to refine AI-generated outputs to be in compliance with the rules of the project.
 
 ---
 
@@ -212,19 +237,19 @@ How would you use Generative AI responsibly?
 
 ### *Idea 1: Personal Website*
 
-<img width="873" alt="Screen Shot 2024-10-28 at 11 28 06 PM" src="https://github.com/user-attachments/assets/7b2ae2d3-2876-40de-b733-0f783979db03">
+<img width="800" alt="Screen Shot 2024-10-28 at 11 28 06 PM" src="https://github.com/user-attachments/assets/7b2ae2d3-2876-40de-b733-0f783979db03">
 
 A personal portfolio website to display and talk about my different projects. Other features include having an “About me” page and creative home landing page. Want to create engagement through potentially having a night mode and other visual features. Nigh mode will also help with accesibility and alt text will be added. 
 
 ### *Idea 2: Restaurant Rating*
 
-<img width="872" alt="Screen Shot 2024-10-28 at 11 29 04 PM" src="https://github.com/user-attachments/assets/ec7d1205-dd10-474b-a48d-02c9990c4cba">
+<img width="800" alt="Screen Shot 2024-10-28 at 11 29 04 PM" src="https://github.com/user-attachments/assets/ec7d1205-dd10-474b-a48d-02c9990c4cba">
 
 Website to submit ratings and comments of different restaurants for your friends to see and share. Acts as a social media platform for foodies. The different features and interactive component will make the design interactive, and ease of use will be a primary focus. Alt text and color options will be available for accesibility.
 
 ### *Idea 3: Digital Journal*
 
-<img width="873" alt="Screen Shot 2024-10-28 at 11 29 22 PM" src="https://github.com/user-attachments/assets/cd778289-f1c2-4d84-8d2e-d67e8e9e0e60">
+<img width="800" alt="Screen Shot 2024-10-28 at 11 29 22 PM" src="https://github.com/user-attachments/assets/cd778289-f1c2-4d84-8d2e-d67e8e9e0e60">
 
 A digital journal to submit entries to document your daily thoughts. Emphasis on aesthetics and features to visually see spreads instead of using word, docs, or notes app. Features such as comments and stickets will make the design interactive, in addition to a potential social feature. Design will be accesible by providing different viewing styles, font sizes, and alt text.
 
