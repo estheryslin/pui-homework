@@ -131,17 +131,17 @@ A personal portfolio website to display and talk about my different projects. Ot
 
 ### *Prototype 0 (Home Page)*
 
-<img width="800" alt="Screen Shot 2024-11-04 at 10 08 09 PM" src="https://github.com/user-attachments/assets/202f753a-d7d3-48b1-9ac9-82f0307c8b25">
+<img width="850" alt="Screen Shot 2024-11-04 at 10 08 09 PM" src="https://github.com/user-attachments/assets/202f753a-d7d3-48b1-9ac9-82f0307c8b25">
 The homepage lacks a visual hierarchy with the main text, which makes it hard for users to identify where to navigate to from the home page. The changing language feature of the homepage text affects the overall layout, and how it could potentially get busy with so many different components. 
 
 ### *Prototype 1 (Works Page)*
 
-<img width="800" alt="Screen Shot 2024-11-04 at 10 00 55 PM" src="https://github.com/user-attachments/assets/4d5f36a1-335d-4392-bf2f-40d2c510f837">
+<img width="850" alt="Screen Shot 2024-11-04 at 10 00 55 PM" src="https://github.com/user-attachments/assets/4d5f36a1-335d-4392-bf2f-40d2c510f837">
 Users may struggle to find their way back to the homepage due to there not being a clear homepage button. Work page displays all of the portfolio projects but users don’t know anything about the projects and can’t tell what the projects are about by the title. Some uncertainty that you’re supposed to scroll down on this page.
 
 ### *Prototype 2 (Project Page)*
 
-<img width="800" alt="Screen Shot 2024-11-04 at 10 02 33 PM" src="https://github.com/user-attachments/assets/85ea3508-7353-425d-bb04-21f7a9222e9f">
+<img width="850" alt="Screen Shot 2024-11-04 at 10 02 33 PM" src="https://github.com/user-attachments/assets/85ea3508-7353-425d-bb04-21f7a9222e9f">
 The photo and text layout feels a bit jarring, especially when viewed in full screen on desktop. Seeing the image first doesn’t allow for affordances that the user is supposed to scroll down. Users are also unable to see the image and the respective text at the same time. Users also said that if there is a lot of content then there could be a lot of scrolling necessary to get through the whole page.
 
 …
@@ -152,13 +152,13 @@ In the usability test, there was a lot of feedback on the overall intuitiveness 
 
 ## Updated Designs
 
-<img width="800" alt="Screen Shot 2024-11-04 at 9 56 52 PM" src="https://github.com/user-attachments/assets/8b2d860c-a265-44f7-abc0-1593b6be488a">
+<img width="850" alt="Screen Shot 2024-11-04 at 9 56 52 PM" src="https://github.com/user-attachments/assets/8b2d860c-a265-44f7-abc0-1593b6be488a">
 Took out “Carnegie Mellon Student” portion out of the main text, and included it in the top left as a part of the new home button. This home button was added as a way to go back to the landing page after going to other pages. 
 
-<img width="800" alt="Screen Shot 2024-11-04 at 10 08 31 PM" src="https://github.com/user-attachments/assets/cbde6fbf-d6a9-4a4d-a516-1f47fcfc55dc">
+<img width="850" alt="Screen Shot 2024-11-04 at 10 08 31 PM" src="https://github.com/user-attachments/assets/cbde6fbf-d6a9-4a4d-a516-1f47fcfc55dc">
 Added short descriptions to each project to inform users of what the respective projects are about before they click on it. Will add an animated image hover feature to give feedback when users are hovering over specific projects.
 
-<img width="800" alt="Screen Shot 2024-11-04 at 10 08 56 PM" src="https://github.com/user-attachments/assets/81983f4c-f1cf-4f43-b012-61c824c871b7">
+<img width="850" alt="Screen Shot 2024-11-04 at 10 08 56 PM" src="https://github.com/user-attachments/assets/81983f4c-f1cf-4f43-b012-61c824c871b7">
 Changed layout so image and text are next to each other and are visible simultaneously. Allows users to better digest and analyze the content.
 
 ## Feedback Summary
@@ -237,13 +237,13 @@ I’ll use GenAI responsibly by reviewing all generated code, ensuring it meets 
 
 ### *Idea 1: Personal Website*
 
-<img width="800" alt="Screen Shot 2024-10-28 at 11 28 06 PM" src="https://github.com/user-attachments/assets/7b2ae2d3-2876-40de-b733-0f783979db03">
+<img width="850" alt="Screen Shot 2024-10-28 at 11 28 06 PM" src="https://github.com/user-attachments/assets/7b2ae2d3-2876-40de-b733-0f783979db03">
 
 A personal portfolio website to display and talk about my different projects. Other features include having an “About me” page and creative home landing page. Want to create engagement through potentially having a night mode and other visual features. Nigh mode will also help with accesibility and alt text will be added. 
 
 ### *Idea 2: Restaurant Rating*
 
-<img width="800" alt="Screen Shot 2024-10-28 at 11 29 04 PM" src="https://github.com/user-attachments/assets/ec7d1205-dd10-474b-a48d-02c9990c4cba">
+<img width="850" alt="Screen Shot 2024-10-28 at 11 29 04 PM" src="https://github.com/user-attachments/assets/ec7d1205-dd10-474b-a48d-02c9990c4cba">
 
 Website to submit ratings and comments of different restaurants for your friends to see and share. Acts as a social media platform for foodies. The different features and interactive component will make the design interactive, and ease of use will be a primary focus. Alt text and color options will be available for accesibility.
 
