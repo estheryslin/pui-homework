@@ -31,6 +31,15 @@ How a user would interact with your website? For each step, briefly but clearly 
 3. Link: Click on "EL" on work or about page to get to home page
 4. Link: Click on "Swimming competitively for my university" on about to get to CMU Athletics page
 
+#Website should be viewed on a 2304px × 1440px Laptop screen and a mobile screen
+#Summary and Details:
+Home page:<img width="1511" alt="Screen Shot 2024-12-07 at 6 36 55 PM" src="https://github.com/user-attachments/assets/ba95094f-77cf-4153-9155-7b856c82b70f">
+
+Work page:<img width="1510" alt="Screen Shot 2024-12-07 at 6 37 22 PM" src="https://github.com/user-attachments/assets/0b6cdd04-2846-48f9-9a7e-c6d02efd4967">
+
+About page: <img width="1512" alt="Screen Shot 2024-12-07 at 6 37 55 PM" src="https://github.com/user-attachments/assets/c705ac37-6efb-4bfe-b4a9-c61f26c5a732">
+
+
 ## Part 3: External Tool
 
 Describe what important external tool you used (JavaScript library, Web API, animations, or other). Following the bulleted list format below, reply to each of the prompts.
