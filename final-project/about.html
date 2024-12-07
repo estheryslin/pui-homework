@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Esther</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .content {
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .about-image img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%; 
+      object-fit: cover;
+      margin-bottom: 1rem; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-text h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 1rem 0;
+    }
+
+    .about-text p {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      color: #333;
+    }
+
+    .about-text ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .about-text ul li {
+      margin-bottom: 0.5rem;
+      font-size: 1.1rem;
+    }
+
+    .about-text ul li a {
+      color: #007BFF;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .about-text ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .about-text ul li .swimming-link {
+      color: rgb(29, 54, 145); 
+    }
+
+    .about-text ul li .swimming-link:hover {
+      text-decoration: underline; /
+    }   
+  </style>
+</head>
+<body>
+  
+  <!-- Background Canvas -->
+  <canvas id="backgroundCanvas"></canvas>
+
+  <!-- Gradient Background -->
+  <div class="gradient-bg"></div>
+
+  <!-- Header -->
+  <header>
+    <div class="header-content">
+      <a href="index.html" class="logo">EL</a>
+      <div class="menu">
+        <a href="work.html">Work</a>
+        <a href="about.html" class="active">About</a>
+      </div>
+    </div>
+    <div class="divider"></div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="content">
+      <!-- Headshot Image -->
+      <div class="about-image">
+        <img src="assets/esther-headshot.png" alt="Professional headshot photo of Esther Lin">
+      </div>
+
+      <!-- Title and Text -->
+      <div class="about-text">
+        <h1>Hi! My Name is Esther</h1>
+        <p>
+          I’m a junior double majoring in Business Administration & Human-Computer Interaction
+          with a minor in Decision Science at Carnegie Mellon University.
+        </p>
+        <p></p>
+        <p>You can find me:</p>
+        <ul>
+          <li><a href="https://athletics.cmu.edu/sports/wswimdive/2024-25/bios/lin_esther_8l62" class="swimming-link">Swimming competitively for my university</a> (go Tartans!)</li>
+          <li>Perfecting matcha lattes</li>
+          <li>Building mechanical keyboards</li>
+          <li>Playing Japanese Mahjong</li>
+          <li>Exploring new restaurants wherever I go</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

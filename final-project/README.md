@@ -14,6 +14,7 @@ Feel free to refer to this [Markdown Cheat Sheet](https://www.markdownguide.org/
 Describe your website (300 words).
 
 * What is the purpose of your website?   
+    
 * Who is the target audience?  
 * What information do you convey with your website?   
 * How is it interesting and engaging? 

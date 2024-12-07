@@ -115,3 +115,32 @@ nav a{
 .remove_text{
     font-size: small;
 }
+
+/* General Body and HTML Scroll Settings */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-y: auto; /* Always allow scrolling */
+    height: 100%;
+  }
+  
+  /* Main Section Spacing */
+  main {
+    min-height: 120vh; /* Ensures the main content exceeds the viewport */
+    padding-bottom: 4rem; /* Adds spacing for better aesthetics */
+  }
+  
+  /* Image Styling */
+  .project-image {
+    margin-top: 4rem;
+    text-align: center;
+  }
+  
+  .project-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+  }
+  

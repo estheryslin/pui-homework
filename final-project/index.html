@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <title>Esther Lin Design</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap">
+  <link rel="stylesheet" href="css/styles.css"> <!-- External stylesheet -->
+  <script src="js/particle.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <!-- Background Canvas -->
+  <canvas id="backgroundCanvas" alt="Moving gradient of rainbow colord"></canvas>
+
+  <!-- Background Gradients -->
+  <div class="gradient-bg">
+    <svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+      <defs>
+        <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo" />
+          <feBlend in="SourceGraphic" in2="goo" />
+        </filter>
+      </defs>
+    </svg>
+    <div class="gradients-container">
+      <div class="g1"></div>
+      <div class="g2"></div>
+      <div class="g3"></div>
+      <div class="g4"></div>
+      <div class="g5"></div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="header-content">
+      <a href="index.html" class="logo" alt="Simple logo of the initials EL">EL</a>
+      <div class="menu">
+        <a href="work.html">Work</a>
+        <a href="about.html">About</a>
+      </div>
+    </div>
+    <div class="divider"></div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="content">
+      <h1 class="title">Esther Lin</h1>
+      <p class="subtitle">
+        Student at Carnegie Mellon University<br>
+        Based in Pittsburgh, PA → <span id="time"></span>
+      </p>
+    </div>
+  </main>
+
+  <!-- JavaScript -->
+  <script type="module" src="js/particle.js"></script>
+  <script type="module" src="js/script.js"></script>
+  <script>
+    const timeElement = document.getElementById("time");
+    function updateTime() {
+      const now = new Date();
+      const formattedTime = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true });
+      timeElement.textContent = formattedTime;
+    }
+    setInterval(updateTime, 1000);
+    updateTime();
+  </script>
+</body>
+</html>
