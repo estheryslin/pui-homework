@@ -126,13 +126,43 @@ Document the usage logs (prompts and chat history links) for the GenAI tools you
 
 Document the changes and progress of your project. How have you followed or changed your implementation & GenAI use plan and why? Remember to commit your code to save your progress.
 
+  I have mostly followed progress of this project thus far, but due to changes in features that I had to make due to feasability, I have fallen behind in some key aspects. I hope to catch up and work on the project more in those features.
+
 ## Implementation Plan Updates
 
-- [ ] ...
+- [X] Week 9 Oct 28 \- Nov 1:
+  - [X] FP1 due
+  
+- [X] Week 10 Nov 4 \- Nov 8:   
+  - [X] FP2 due
+
+- [ ] Week 11 Nov 11 \- Nov 15:
+  - [X] FP3 Due
+  - [X] Design and implement basic structure of whole website
+  - [X] Hardcode visual elements such as images and buttons
+  - [ ] Attempt animated stars and gaug progress/time
+        
+- [ ] Week 12 Nov 18 \- Nov 22:
+  - [ ] Refine basic structure and visual elements
+  - [ ] Compelte animated stars
+  - [ ] Attempt animated images for project page
+        
+- [ ] Week 13 Nov 25 \- Nov 29:
+  - [ ] Attempt timeline at the top of project page
+  - [ ] Make final corrections on structure and hardcoded components
+  - [ ] Created animated homepage text
+
+  - [ ] Thanksgiving  
+- [ ] Week 14 Dec 2 \- Dec 6:  
+  - [ ] FP4 due
+  - [ ] Finalize project page timeline
+  - [ ] Final adjustments
+  - [ ] Debug features, especially dynamic ones
+  - [ ] Check for speed of dynamic components
 
 ## Generative AI Use Plan Updates
 
-- [ ] ...
+- [ ] ChatGPT: debugging, explaining code, and some code generation
 
 Remember to keep track of your prompts and usage for [FP4 writeup](#part-6-generative-ai-use-and-reflection).
 
