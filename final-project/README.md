@@ -108,7 +108,7 @@ For the following aspects of your project, edit the corresponding table cell to 
 > Pros and cons of using GenAI tools
 * Pros
   1. ChatGPT: Helps explain concepts, debug code efficiently, and process large amounts of code efficiently
-  2. 
+    
 * Cons
   1. ChatGPT: Cannot design visual things great, and fails to udnerstand greater contexts of the code
 
