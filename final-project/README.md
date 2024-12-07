@@ -49,12 +49,14 @@ Describe what important external tool you used (JavaScript library, Web API, ani
 ## Part 4: Design Iteration
 
 Describe how you iterated on your prototypes, if at all, including any changes you made to your original design while you were implementing your website and the rationale for the changes. (4-8 sentences max)
-     * Initially, I inteneded to have dynamic, animated stars on my homepage, surrounding the content on the page. While doing user testing and getting feedback I realized that having too much animation was slightly distracting to the content so I decided to go with more subtle animation. I also initially intended to have a collapsing navigation bar on the left side of the website, but ended up going with a traditional nav bar at the top of the page. This was because if I had a collapsing navigaiton bar I would have to design the website in ways that accomodated the collapsed and uncollapsed version, which was much more difficult than originally intended.
+    
+   * Initially, I inteneded to have dynamic, animated stars on my homepage, surrounding the content on the page. While doing user testing and getting feedback I realized that having too much animation was slightly distracting to the content so I decided to go with more subtle animation. I also initially intended to have a collapsing navigation bar on the left side of the website, but ended up going with a traditional nav bar at the top of the page. This was because if I had a collapsing navigaiton bar I would have to design the website in ways that accomodated the collapsed and uncollapsed version, which was much more difficult than originally intended.
 
 ## Part 5: Implementation Challenge
 
 What challenges did you experience in implementing your website? (2-4 sentences max)
-     * Some of the bigges challenges in the implementation of the website was how the animated portion of the website would be reflected on the actual website, and how this would impact the usability of the website. I would have to adjust the velocity, size, and number of particles so it was not too distracting to the user, but was also noticable enough to make it worthwhile implementing. 
+
+   * Some of the bigges challenges in the implementation of the website was how the animated portion of the website would be reflected on the actual website, and how this would impact the usability of the website. I would have to adjust the velocity, size, and number of particles so it was not too distracting to the user, but was also noticable enough to make it worthwhile implementing. 
 
 ## Part 6: Generative AI Use and Reflection
 
