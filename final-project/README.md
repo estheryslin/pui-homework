@@ -13,40 +13,58 @@ Feel free to refer to this [Markdown Cheat Sheet](https://www.markdownguide.org/
 
 Describe your website (300 words).
 
-* What is the purpose of your website?   
-    
-* Who is the target audience?  
-* What information do you convey with your website?   
-* How is it interesting and engaging? 
+The purpose of my website is to be a personal portfolio and landing page for introducing myself. It is designed to showcase my projects as well as provide a platform to learn more about me as an person. By using a visually engaging and interactive format, my goal is to convey my personality and design taste through the overall appearance and functionality of the website.
+
+My target audience includes people and professionals interested in learning about me and my work, such as potential recruiters, collaborators, friends, or anyone curious about my projects and personality. Additionally, the website serves as a point of introduction for anyone looking to gain insight into who I am as a person, both professionally and personally.
+
+The website features dedicated sections about my projects (only one project is displayed for the purposes of this current endeavor), showcasing the process, skills, steps, and team members involved. Furthermore, it includes a personal bio to provide visitors with an understanding of my interests, values, and individuality. The intention is to give viewers a more holistic view of who I am as a person.
+
+What sets my portfolio apart is its dynamic and captivating animated gradient background, which creates an immersive visual experience that reflects my creativity when the user first opens the website. The clean and minimalistic design ensures easy and straightforward navigation, while the engaging visuals such as the working clock and the content make exploring the site an enjoyable experience. 
+
 
 ## Part 2: User Interaction
 
 How a user would interact with your website? For each step, briefly but clearly state the interaction type & how we should reproduce it.
 
-1. Interaction type. Click on X on page Y / scroll on page X, etc.  
-2. 
+1. Link: Click on "work" on home page to get to Work Page
+2. Link: Click on "about" on home page to get to About Page
+3. Link: Click on "EL" on work or about page to get to home page
+4. Link: Click on "Swimming competitively for my university" on about to get to CMU Athletics page
 
 ## Part 3: External Tool
 
 Describe what important external tool you used (JavaScript library, Web API, animations, or other). Following the bulleted list format below, reply to each of the prompts.
 
-1. Name of tool1  
-   * Why did you choose to use it over other alternatives? (2 sentences max)  
-   * How you used it? (2 sentences max)  
-   * What does it add to your website? (2 sentences max)  
-2. Name of tool2
+1. Animation / Library
+   * Why did you choose to use it over other alternatives? (2 sentences max)
+       I chose this because it was the easiest to understand and explain as a beginner.
+   * How you used it? (2 sentences max)
+       I used it to use for specific code chunks and how to understand the code.
+   * What does it add to your website? (2 sentences max)
+       It helped make my website more visually interesing by making it animated.
+
 
 ## Part 4: Design Iteration
 
 Describe how you iterated on your prototypes, if at all, including any changes you made to your original design while you were implementing your website and the rationale for the changes. (4-8 sentences max)
+    Initially, I inteneded to have dynamic, animated stars on my homepage, surrounding the content on the page. While doing user testing and getting feedback I realized that having too much animation was slightly distracting to the content so I decided to go with more subtle animation. I also initially intended to have a collapsing navigation bar on the left side of the website, but ended up going with a traditional nav bar at the top of the page. This was because if I had a collapsing navigaiton bar I would have to design the website in ways that accomodated the collapsed and uncollapsed version, which was much more difficult than originally intended.
 
 ## Part 5: Implementation Challenge
 
 What challenges did you experience in implementing your website? (2-4 sentences max)
+    Some of the bigges challenges in the implementation of the website was how the animated portion of the website would be reflected on the actual website, and how this would impact the usability of the website. I would have to adjust the velocity, size, and number of particles so it was not too distracting to the user, but was also noticable enough to make it worthwhile implementing. 
 
 ## Part 6: Generative AI Use and Reflection
 
 Describe how you used Generative AI tools to create this final project (fill in the following information, write \~500 words in total).
+
+For my final project, I used GenAI tools like ChatGPT and Microsoft Copilot to help my understanding of concepts, debug, and refine my code. This process not only improved the quality of my project but also helped me learn about how to code as I did the project in real time. 
+
+One of the first challenges of the project was understanding what certain outsourced code meant and how certain lines of code impacted the overall functionality of something. I used ChatGPT to break down the concept into simple, digestible terms that I could understand as an introductory programmer. By asking specific and targeted questions, I was able to better understand what certain code did and also how it impacted other pieces of code.
+
+I also, as expected, faced several bugs and issues that were difficult and time intensive to fix. ChatGPT helped a lot in not only navigating where bugs were, but also what was the best way to fix these bugs. For example, I would paste snippets of my code and describe the issues or error messages that I was getting, and ChatGPT would identify the potential issues, such as syntax or logic errors. It also provided explanations of how to fix these issues, which helped me learn how to debug on my own as well.
+
+In later stages of my project, I also started to find ways to clean up my code and remove things that I may have forgotten to remove or things that weren’t necessary in the functionality of the code. After pasting code snippets into ChatGPT, it would give responses that helped to identify ways to make my code cleaner, more efficient, and easier to maintain. For example, I had a lot of repetitive blocks of code, and ChatGPT helped identify which ones were taking precedence in hierarchy, or if some ended up being not used at all (mostly in CSS). It would also sometimes recommend that I rename my variables or choose better practices, which helped me understand where I could improve when it came to naming conventions and best practices when coding. 
 
 Document your use of all GenAI tools — ChatGPT, Copilot, Claude, Cursor, etc. using the template below. Add/Delete rows or bullet points if needed, and replace Tool1/Tool2 with the name of the tool.
 
@@ -60,41 +78,35 @@ For the following aspects of your project, edit the corresponding table cell to 
 
 | Tool Name | Ratings | design | plan | write code | debug | \_ (other?) |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| Tool1 | Usage | Yes/No | Yes/No | Yes/No | Yes/No | Yes/No |
-| Tool1 | Productivity | 1~7 | 1~7 | 1~7 | 1~7 | 1~7 |
-| Tool2| Usage | Yes/No | Yes/No | Yes/No | Yes/No | Yes/No |
-| Tool2 | Productivity | 1~7 | 1~7 | 1~7 | 1~7 | 1~7 |
+| ChatGPT | Usage | Yes/**No** | Yes/**No** | **Yes**/No | **Yes**/No | **Yes**/No (asking questions)|
+| ChatGPT | Productivity | 0 | 0 | 5 | 6 | 7 |
 
 
 ### Usage Reflection
 
 > Impact on your design and plan 
 * It matched my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
-  1. Tool1: 
-  2. Tool2:
+  1. ChatGPT: Being able to debug code and explain what was going wrong in my code as well as explaining concepts I asked it
+     
 * It did not match my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
-  1. Tool1: 
-  2. Tool2:
+  1. ChatGPT: It was not great at designing the website since it could not visually see things, and was ot great at producing code
+
 * GenAI tool did/did not influence my final design and implementation plan because … For example, 
-  1. Tool1: 
-  2. Tool2:
+  1. ChatGPT: The planning of the website since it didn't have a great understanding of usability from a visual standpoint
 
 > Use patterns
 * I accepted the generations when …  For example, 
-  1. Tool1: this tool once suggested … and I adjusted my design according to the suggestion because … 
-  2. Tool2: 
+  1. ChatGPT:: this tool once suggested that I take out CSS code that was not being used and I adjusted my design according to the suggestion because it streamlined my code and made it more usable
+     
 * I critiqued/evaluated the generated suggestions by … For example, 
-  1. Tool1: this tool once suggested … but I modified/rejected the suggestion because … 
-  2. Tool2: 
-
+  1. ChatGPT: this tool once suggested that the website looked a certain way given the code but I modified/rejected the suggestion because it failed to consdier the CSS and Javascript code that was changing what the HTML looked like. 
 
 > Pros and cons of using GenAI tools
 * Pros
-  1. Tool1: 
-  2. Tool2:
+  1. ChatGPT: Helps explain concepts, debug code efficiently, and process large amounts of code efficiently
+  2. 
 * Cons
-  1. Tool1: 
-  2. Tool2:
+  1. ChatGPT: Cannot design visual things great, and fails to udnerstand greater contexts of the code
 
 
 ### Usage Log
