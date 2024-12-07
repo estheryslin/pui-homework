@@ -37,12 +37,15 @@ Describe what important external tool you used (JavaScript library, Web API, ani
 
 1. Animation / Library
    * Why did you choose to use it over other alternatives? (2 sentences max)
+   * 
       I chose this because it was the easiest to understand and explain as a beginner.
    
    * How you used it? (2 sentences max)
+   * 
       I used it to use for specific code chunks and how to understand the code.
      
    * What does it add to your website? (2 sentences max)
+   * 
        It helped make my website more visually interesing by making it animated.
 
 
